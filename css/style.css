@@ -1,0 +1,333 @@
+body {
+  font-size: 13px !important;
+  line-height: 19px !important;
+  color: #111 !important;
+  font-family: "Hiragino Kaku Gothic Pro W3","Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+}
+
+.l-wrapper {
+  padding: 14px 18px;
+  margin-bottom: 22px;
+}
+.l-header {
+  text-align: center;
+  margin-bottom: 18px;
+}
+.l-logoLink,
+.l-logoLink:link,
+.l-logoLink:visited {
+  text-decoration: none;
+}
+
+.l-footer {
+  margin-top: 26px;
+}
+.l-footer__inner {
+  height: 44px;
+  margin-bottom: -18px;
+  background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+  z-index: 0;
+  zoom: 1;
+}
+.l-footer__inner:after {
+  display: block;
+  width: 100%;
+  height: 44px;
+  background-color: transparent;
+  background: linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
+  z-index: 1;
+  content: "";
+}
+.l-footer__linkArea {
+  font-size: 11px;
+  line-height: 1.465;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.l-footer__seperator {
+  display: inline-block;
+  width: 20px;
+}
+.l-footer__link:link,
+.l-footer__link:visited {
+  text-decoration: none;
+  color: #0066c0;
+}
+.l-footer__copyrightArea {
+  text-align: center;
+}
+.l-footer__copyright {
+  font-size: 11px;
+  line-height: 1.465;
+  color: #555;
+}
+.l-main {
+  width: 100%;
+  max-width: 700px;
+  margin: 10px auto 0;
+}
+
+.c-heading {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+
+}
+.c-iconMain {
+  display: inline-block;
+  height: 31px;
+  width: 103px;
+  vertical-align: top;
+  background-image: url("./../img/amazon-sprite.png");
+  background-size: 400px 750px;
+  background-repeat: no-repeat;
+  background-position: -5px -130px;
+}
+.c-iconSub {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  vertical-align: top;
+  background-image: url("./../img/amazon-sub.png");
+  background-size: 350px 350px;
+  background-repeat: no-repeat;
+  background-position: -145px -200px;
+
+}
+.c-signupBox {
+  display: block;
+  border-radius: 4px;
+  border: 1px #ddd solid;
+  background-color: #fff;
+  width: 100%;
+  padding: 20px 26px;
+  max-width: 350px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.c-block {
+  width: 100%;
+  margin-bottom: 14px;
+}
+.c-label {
+  display: block;
+  padding-left: 2px;
+  padding-bottom: 2px;
+  font-weight: 700;
+}
+.c-input {
+  width: 100%;
+  background-color: #fff;
+  height: 31px;
+  padding: 3px 7px;
+  line-height: normal;
+  border: 1px solid #a6a6a6;
+  border-top-color: #949494;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+  outline: 0;
+}
+.c-input:focus {
+  border-color: #e77600;
+  box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
+}
+.c-labelBlock {
+  margin-right: 2%;
+  float: left;
+  min-height: 1px;
+  overflow: visible;
+  width: 40.448%;
+}
+.c-paswordReset {
+  margin-right: 0;
+  float: right;
+  min-height: 1px;
+  overflow: visible;
+  width: 57.448%;
+  text-align: right;
+}
+.c-paswordReset__link:link,
+.c-paswordReset__link:visited {
+  text-decoration: none;
+  color: #0066c0;
+}
+.c-buttonArea {
+  margin-top: 22px;
+  margin-bottom: 26px;
+}
+.c-button {
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  border-radius: 3px;
+  background: #f0c14b;
+  border-color: #a2a6ac #979aa1 #82858a;
+  color: #111;
+}
+.c-button:hover {
+  border-color: #a88734 #9c7e31 #846a29;
+}
+.c-button__inner {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  height: 29px;
+  border-radius: 2px;
+  box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+  background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+}
+.c-button__input {
+  position: absolute;
+  background-color: transparent;
+  color: transparent;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: .01;
+  outline: 0;
+  overflow: visible;
+  z-index: 20;
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+.c-button__text {
+  color: #111;
+  background-color: transparent;
+  border: 0;
+  display: block;
+  font-family: "Hiragino Kaku Gothic Pro W3","Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  margin: 0;
+  outline: 0;
+  padding: 0 10px 0 11px;
+  text-align: center;
+  white-space: nowrap;
+}
+.c-text {
+  width: 100%;
+  margin-top: 18px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.c-textLink {
+  text-decoration: none;
+  color: #0066c0;
+}
+.c-loginCheck {
+  width: 100%;
+  margin-top: 18px;
+}
+.c-loginCheck__label {
+  display: block;
+  padding-left: 2px;
+  padding-bottom: 2px;
+  font-weight: 700;
+}
+.c-loginCheck__text {
+  position: relative;
+  padding-left: 5px;
+  text-indent: 0;
+  display: inline-block;
+}
+.c-loginCheck__input {
+  margin: 0;
+  height: 13px;
+  width: 13px;
+  vertical-align: top;
+  position: relative;
+  bottom: -3px;
+}
+.c-loginCheck__innerLabel {
+  display: block;
+  position: relative;
+  font-weight: 400;
+  color: #111;
+  padding-left: 15px;
+  text-indent: -15px;
+  margin-left: 3px;
+  top: -2px;
+  padding-bottom: 0;
+}
+.c-bottomText {
+  text-align: center;
+  position: relative;
+  top: 2px;
+  padding-top: 1px;
+  margin-bottom: 14px;
+  line-height: 0;
+}
+.c-bottomText:after {
+  content: "";
+  width: 100%;
+  background-color: transparent;
+  display: block;
+  height: 1px;
+  border-top: 1px solid #e7e7e7;
+  position: absolute;
+  top: 50%;
+  margin-top: -1px;
+  z-index: 1;
+}
+.c-bottomText__heading {
+  line-height: 1;
+  font-size: 12px;
+  color: #767676;
+  font-weight: 400;
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+  background-color: #fff;
+  padding: 0 8px 0 7px;
+}
+.c-bottomButton {
+  width: 100%;
+  background: #e7e9ec;
+  border-radius: 3px;
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.c-bottomButton:hover {
+  border-color: #a2a6ac #979aa1 #82858a;
+}
+.c-bottomButton__inner {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  height: 29px;
+  box-shadow: 0 1px 0 rgba(255,255,255,.6) inset;
+  border-radius: 2px;
+  background: linear-gradient(to bottom,#f7f8fa,#e7e9ec);
+}
+.c-bottomButton__link {
+  color: #111;
+  text-decoration: none;
+  background-color: transparent;
+  border: 0;
+  display: block;
+  font-family: "Hiragino Kaku Gothic Pro W3","Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  margin: 0;
+  outline: 0;
+  padding: 0 10px 0 11px;
+  text-align: center;
+  white-space: nowrap;
+}
